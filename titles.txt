@@ -1,0 +1,4 @@
+Unifying the analysis and writing processes for reproducible and collaborative
+scientific research.
+
+Tools and workflows to effect efficient collaboration in scientific research.

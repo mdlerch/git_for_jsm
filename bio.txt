@@ -1,0 +1,5 @@
+Michael Lerch is a PhD candidate in statistics at Montana State University.
+Prior to statistics, he obtained a Masters degree in physics, but now he uses
+his analytical skills to explore data sets from a wide variety of disciplines.
+Michael is philosophically Bayesian but pragmatic in statistical application.
+His research interests are in regularization and Bayesian inference.
