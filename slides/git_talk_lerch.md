@@ -24,18 +24,29 @@ More and more scientists do their work on a computer.  A lot of us have bad
 habits.  We are going to investigate those bad habits and see how we might
 correct them.
 
+Why aren't you using git?
+=========================
+
+Classical learning
+------------------
+
+- The reward/punishment is too far temporally separated from the behavior
+- Don't use git: have your computer freeze to recreate inefficiency
+- Don't use git: receive a small electrical shot to recreate pain and
+  frustration
+
 What do your files look like on your computer?
 ==============================================
 
 Why do we do this?
 ------------------
 
-(picture)
+![](./img/files.png)
 
 How does this even happen?
 --------------------------
 
-(picture)
+![](./img/files-baddates.png)
 
 Heart is in the right place
 ---------------------------
@@ -101,8 +112,6 @@ Third steps in `git`
 Getting something back
 ======================
 
-
-
 Fourth steps in `git`
 ---------------------
 
@@ -111,5 +120,4 @@ Fourth steps in `git`
 - `merge` branches in when appropriate.
 
 - Use `blame` to find out who is responsible for a particular line.
-
 
