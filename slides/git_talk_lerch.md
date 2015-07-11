@@ -1,17 +1,25 @@
 % Using git for for efficient collaboration in scientific research
 % Michael Lerch
 
-
 This is a talk about `git`.
 ---------------------------
 
-Really, it's a talk about VCS (version control system).
+\begin{columns}
+\column{.48\textwidth}
 
-`git` is one such VCS, arguably the most popular.  Some others that you may
-heard about are `hg` and `svn`.
+\begin{itemize}
+    \item Really, it's a talk about VCS (version control system).
 
-If this talk inspires you to start using VCS, use `git` unless you have a
-specific reason to use `hg`.
+    \item \texttt{git} arguably most popular.  Otherse include \texttt{svn} and \texttt{hg}.
+\end{itemize}
+
+\includegraphics[width = .8\textwidth]{./img/logo_git.png}
+
+\column{.48\textwidth}
+\includegraphics[width = .8\textwidth]{./img/logo_svn.png}
+
+\includegraphics[width = .8\textwidth]{./img/logo_hg.png}
+\end{columns}
 
 What to expect
 --------------
@@ -30,10 +38,22 @@ Why aren't you using git?
 Classical learning
 ------------------
 
-- The reward/punishment is too far temporally separated from the behavior
-- Don't use git: have your computer freeze to recreate inefficiency
-- Don't use git: receive a small electrical shot to recreate pain and
-  frustration
+\begin{columns}
+\column{.48\textwidth}
+
+\begin{itemize}
+    \item The reward (or punishment) is too far separated from the act!
+
+    \item Must actively train one's self to use `git`
+\end{itemize}
+
+\column{.48\textwidth}
+
+\includegraphics[width = \textwidth]{./img/pavlovdog1.png}
+
+{\tiny http://truestorieswithgill.com/wp-content/uploads/2013/11/pavlovdog1.png }
+
+\end{columns}
 
 What do your files look like on your computer?
 ==============================================
@@ -59,6 +79,7 @@ Heart is in the right place
 
 - Sharing is difficult, to say nothing of collaborating
 
+
 First steps in `git`
 --------------------
 
@@ -70,29 +91,39 @@ First steps in `git`
 
 - Entire history is available, but out of the way
 
+\begin{columns}
+\column{.48\textwidth}
+\includegraphics[width = \textwidth]{./img/files_git.png}
+\column{.48\textwidth}
+\includegraphics[width = \textwidth]{./img/history.png}
+\end{columns}
+
 Second steps in `git`
 ---------------------
 
 - Use `diff` to see the difference between two snapshots.
+
+\includegraphics[width = .7\textwidth]{./img/diff.png}
 
 - Use `tags` to mark important milestones
 
 Sharing with others
 ===================
 
-File organization
------------------
+Sharing
+-------
 
-- Our cleaner file organization makes collaboration much easier.
+- File organization
 
-- Others can worry about file contents not which file is current.
+    - Our cleaner file organization makes collaboration much easier.
 
-Getting our files _out_
------------------------
+    - Others can worry about file contents not which file is current.
 
-- Email?
+- Getting our files _out_
 
-- Dropbox?
+    - Email?
+
+    - Dropbox?
 
 Third steps in `git`
 --------------------
@@ -101,23 +132,61 @@ Third steps in `git`
 
 - A copy of the repository that can be accessed by others.
 
-- `push` your commits up to the central repository
-
-- `pull` other people's commits down from the central repository
-
 - Options: github, bitbucket, gitlab
 
 - all offer additional _goodies_ in addition to hosting the repositories.
 
-Getting something back
-======================
+\begin{columns}
+\column{.48\textwidth}
+\includegraphics[width = .9\textwidth]{./img/logo_github.png}
+\column{.48\textwidth}
+\includegraphics[width = .9\textwidth]{./img/logo_bitbucket.png}
+\end{columns}
+
+Getting something back (workflow)
+=================================
 
 Fourth steps in `git`
 ---------------------
 
-- Use `branches` to _split_ (temporarily) from the main work.
+- _push_ commits up; _pull_ commits down
 
-- `merge` branches in when appropriate.
+\begin{center}
+\includegraphics[width = 0.6\textwidth]{./img/history.png}
+\end{center}
 
-- Use `blame` to find out who is responsible for a particular line.
+Fifth steps in `git`
+--------------------
 
+- _branching_ and _merging_
+
+\begin{center}
+\includegraphics[width = 0.8\textwidth]{./img/merge.png}
+
+{\tiny https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging}
+\end{center}
+
+`git` handles complicated work patterns
+---------------------------------------
+
+\begin{center}
+\includegraphics[width = 0.8\textwidth]{./img/gitflow.png}
+\end{center}
+
+Summary
+=======
+
+Summary
+-------
+
+- History is available, but not in the way.
+
+- Commits are discrete snapshots.  Making comparisons, reverting, seeing
+  evolution of project is intrinsic rather than forced with timestamping files.
+
+- github/bitbucket provide goodies.  _You_ control the files on your computer.
+
+- Branches make collaborating efficient and non-destructive.
+
+Make yourself use it!
+=====================
