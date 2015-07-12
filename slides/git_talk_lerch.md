@@ -8,7 +8,7 @@ This is a talk about `git`.
 \column{.48\textwidth}
 
 \begin{itemize}
-    \item Most of the contnet applies to other VCS (version control system).
+    \item Most of the content applies to other VCS (version control system).
 
     \item \texttt{git} arguably most popular.  Others include \texttt{svn} and \texttt{hg}.
 \end{itemize}
