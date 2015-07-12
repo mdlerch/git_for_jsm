@@ -8,9 +8,9 @@ This is a talk about `git`.
 \column{.48\textwidth}
 
 \begin{itemize}
-    \item Really, it's a talk about VCS (version control system).
+    \item Most of the contnet applies to other VCS (version control system).
 
-    \item \texttt{git} arguably most popular.  Otherse include \texttt{svn} and \texttt{hg}.
+    \item \texttt{git} arguably most popular.  Others include \texttt{svn} and \texttt{hg}.
 \end{itemize}
 
 \includegraphics[width = .8\textwidth]{./img/logo_git.png}
@@ -21,6 +21,23 @@ This is a talk about `git`.
 \includegraphics[width = .8\textwidth]{./img/logo_hg.png}
 \end{columns}
 
+Preliminaries
+-------------
+
+- Scientists use computers to do science
+
+- It is extremely important to keep track of the steps that are taken.
+
+- Scripts or files should be saved to be able to recreate analysis, data
+  cleaning, manuscript writing, product generation etc.
+
+- A project will consist of a collection of such files.
+
+- `git` provides a way to manage these files: how they change over time,
+  collaboration with others.
+
+
+
 What to expect
 --------------
 
@@ -28,15 +45,13 @@ I am not actually going to teach you how to use `git`.
 
 There are plenty of resources online.
 
-More and more scientists do their work on a computer.  A lot of us have bad
-habits.  We are going to investigate those bad habits and see how we might
-correct them.
+I want to convince you bring `git` into your workflow.
 
 Why aren't you using git?
 =========================
 
-Classical learning
-------------------
+Classical conditioning
+----------------------
 
 \begin{columns}
 \column{.48\textwidth}
