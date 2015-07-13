@@ -1,0 +1,79 @@
+Thoughts:
+
+1.  Value, simplicity, and efficiency of scripts/text files.
+
+a. Analysis
+
+
+Most should be familiar with two processes to perform analyses, create graphics,
+etc.  First is point-and-click like behavior and the second is script writing.
+Users of R are typically script writers; the steps in the analysis pipeline are
+written in a text file as commands to be performed by the engine (R).  Other
+analysis packages may offer point-and-click options where the actions in the
+pipeline are provided to the engine by clicking menu options.  Even if
+point-and-click analyses have been performed, some software can save these
+actions in a script that is available to the researcher (if they look up how to
+access said script!).  If you are a point-click-person and saving your clicks to
+a script is an option, turn it on.
+
+Scripts are better than point-and-click methods.  It is foolish to think an
+analysis will be "clicked" once, the results printed, and never returned to
+again.  Questions like "How did you get those results?", "Can you update this
+with this new observation?", and "Are you sure this is right?" are much more
+easily addressed with scripts rather than a sequence of clicks.  The reason
+these questions are easier to approach with scripts is because scripts are
+*reproducible*.  Reproducible means...
+
+
+b. Manuscripts/documentation/reports
+
+Moving manuscripts out of Word/Google Docs and into text files can be
+intimidating.  (Which is kind of bizarre since text files are so much simpler).
+When I am writing and trying to decide if I should use text files or a document
+preparation system, a question I ask myself is what is more important, the
+formatting/appearance or the content (sentences and paragraphs)?  Almost always,
+the answer is the content.  In this case, I am led to use simple tools that
+allow me to create my content as simply and distraction free as possible--text
+files.  If text files are used, the advantages discussed below may be leveraged.
+In the end, attractive final documents may be produced from simple text files
+allowing us to divorce the appearance part from the content part in document
+preparation.
+
+2.  Managing text files
+
+a. Sharing a file between computers/users
+
+
+
+
+
+b. Sharing a *project* between computers/users
+
+
+
+
+
+Manging step one: passing/sharing a text file between multiple computers/users.
+Let's compare this to sharing a Word document and a Google doc.  Sharing text
+files exists somewhere between these two.  
+
+
+Managing step two: passing/sharing *a project* between multiple computers/users.
+
+
+3.  Powerful software for text files
+
+a.  But what if I like formatting and pretty manuscripts?
+
+I mentioned that we have divorced content from appearance by using text files,
+however, I only talked about the content part and not the appearance part.
+Many are familiar with LaTeX (if not with using it, then at least knowing that
+it exists).  LaTeX is one direction to go.  Markdown is another.  
+
+
+b.  Combining analyses and manuscripts
+
+
+
+
+
