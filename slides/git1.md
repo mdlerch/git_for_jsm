@@ -36,8 +36,6 @@ Preliminaries
 - `git` provides a way to manage these files: how they change over time,
   collaboration with others.
 
-
-
 What to expect
 --------------
 
