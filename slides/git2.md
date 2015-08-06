@@ -11,7 +11,6 @@ Goals
 - Differentiate between _github_, _bitbucket_, etc
 - How does collaboration work with `git`
 - What technical prowess does one need to use `git`
-- What if I come and go frequently?
 
 . . .
 
@@ -203,3 +202,4 @@ Why aren't you using `git` already?
 {\tiny http://truestorieswithgill.com/wp-content/uploads/2013/11/pavlovdog1.png }
 
 \end{columns}
+
