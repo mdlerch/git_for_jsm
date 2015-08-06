@@ -184,7 +184,10 @@ Using Issues on github
 ![](./img/anissue.png)
 
 Why aren't you using `git` already?
------------------------------------
+===================================
+
+Classical Conditioning
+----------------------
 
 \begin{columns}
 \column{.48\textwidth}
