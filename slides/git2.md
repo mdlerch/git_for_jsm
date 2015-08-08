@@ -28,7 +28,7 @@ Non-goals
  . . .
 
 - `git` is software you run on your computer
-- Keep track of history of your project
+- Keep track of history of your project in the form of commits
 - Connect to and integrate changes in other repositories
 
 
@@ -86,6 +86,17 @@ My computer
 
 ![](./img/optd-files.png)
 
+Bad idea
+--------
+
+![](./img/files.png)
+
+My computer
+-----------
+
+![](./img/optd-files.png)
+
+
 Add git
 -------
 
@@ -133,6 +144,17 @@ Why is this better than dropbox or google drive?
 <!-- - John and I work simultaneously without stepping on each other's toes -->
 
 ![](./img/commits.png)
+
+Branching
+---------
+
+\centering
+\includegraphics[width=.6\textwidth]{./img/branch.png}
+
+\tiny
+https://www.atlassian.com/pt/git/tutorial/git-branches
+
+
 
 Is `git` hard to use?
 ---------------------
