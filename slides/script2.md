@@ -18,9 +18,10 @@ Objectives and Goals
 
 - My goal for this talk is to clarify these points, and hopefully inspire people to start using git.
 
-- I do not intend to teach people how to use `git`
+- I do not intend to teach people how to use git
 - There are already a number of resources to learn git on the web
-- And I believe my target audience would benefit greater from a big picture than hearing me talk about the details and commands.
+- And I believe my target audience would benefit greater from a big picture perspective.
+- Rather than hearing me talk about the details and commands.
 
 
 `git` vs github
@@ -42,7 +43,7 @@ Objectives and Goals
 
 - So git is software that you are running your own computer that does version control
 - github, and I am using "github" to mean github or bitbucket or gitlab,
-- is a website that hosts, with special features, git repositories
+- is a website that hosts git repositories, with special features
 - So, while you and your collaborator both have git repositories on your computer, getting your computers to talk directly might take some technical knowledge
 - However, using github as an intermediary, centralized location is trivial
 - And these websites provide more than just repository hosting
@@ -69,14 +70,14 @@ Differentiate hosting providers
 - You may have sensitive data or otherwise work that you want to keep private or at least start as private and then eventually make public.
 - Consider whether it really is important that your project is private.
 
-- First github, which is probably the most popular and generally comes up with new features first.
+- First github, which is probably the most popular and recognizable
 - On github you can have an unlimited number of public repositories
 - but, unless you pay, no private repositories (though academics or maybe just students can get free elevated accounts)
 - If you are willing to pay the pricing tiers determine the number of private repositories you can have.
 
 - On bitbucket, the basic account also gets you unlimited public repositories
 - But also you get unlimited private repositories, but only up to 5 collaborators
-- Their pricing tiers are based on the number of collaborators you want per repository
+- Their pricing tiers are based on the number of collaborators you want per private repository
 
 - Lastly, there is gitlab which is relatively new
 - They seem to offer both unlimited public and private repositories
@@ -154,15 +155,16 @@ You have to _use_ `git`
 
 - After making "enough" changes, then I USE git
 - I have to commit my changes to create a new snapshot, a new entry in the history
-- After, my local repository has a new commit in it's history so I need to PUSH that up to github
+- Now that I have a new commit in the repository on my computer, I need to PUSH that up to github
 - That way John can now see and obtain my changes, at his convenience
-- He will then pull those new commits from my repository into his repository
+- He will then PULL those new commits from my repository into his repository
 
 Why is this better than dropbox or google drive?
 ------------------------------------------------
 
 - The healthy skeptic will ask now why is this better than dropbox or google drive
 - With those services, everything is automatically uploaded and propagated.
+- With git I have to manually do that part
 - Well, it's convenient to have this nice labeled history
 - to be able to click and see how the files have changed
 - what your files looked like a while ago, revert to an older version, etc
@@ -178,12 +180,13 @@ Branching
 ---------
 
 - I'm just going to talk briefly about this
-- In my experience, branching is where beginners become convinced
+- In my experience, branching is where beginners become excited or intrigued about using git
 - Branching means diverging from the main history
 - You could do this for a number of reasons.
 - You want to do some experimental work that may or may not become "real"
 - You want to do something that's going to take a while, and don't want others to be worried about what you are doing in the mean time.
 - Or similarly, you and others are both doing work and you don't want the history of the project to be intermingled
+- You are creating and fine tuning a graph while John is making a new example
 - After you finish up your branch, if it's bad you just get rid of your branch with nothing to worry about, or if it's good you merge the commits from that branch into the main history.
 
 Is `git` hard to use?
@@ -210,35 +213,51 @@ Is `git` hard to use?
 
 - The problem is that git is feature-filled and extremely powerful
 - And as a beginner it can be difficult to determine what is important
-- You won't know how much of git you need to know before you can become operational.
+- You might know how much of git you need to learn before you can become operational.
 - Having a collaborator who knows what he or she is doing is invaluable for the beginner
 - A person with the computer competence I've described with a collaborator who knows what they are doing can be up and running with git almost immediately
 - The key is just introducing the functionality as needed.
+- You can do a whole lot of git with a very minimal amount of git's features
 
 Collaborating on github
 =======================
+
+- So far, everything I've talked about is explicitly git functionality
+- I want to introduce just one github (or bitbucket) feature.
+- To motivate, we recently got some reviewer comments back and the email from the lead said something like this
 
 Reviewer Comments
 -----------------
 
 - "Please use track changes and save the document with your initials"
 - "**Person A** and **Person B** are off the hook"
-- "**Person C** and **Person D** please look at the comments for points I
-  want you to work on"
-- "Here's what I've done so far; I'm not finished but wanted to share what I
-  have done so far"
+- "**Person C** and **Person D** please look at the comments for points I want you to work on"
+- "Here's what I've done so far; I'm not finished but wanted to share what I have done so far"
+
+- I suspect this is familiar to many of you
+- We are going to work on this in a better way than a polluted email inbox and multiple copies of files floating around
+- We will use issues on github.
 
 Using Issues on github
 ----------------------
 
-- Your TODO list lives at the _same place_ as the project itself
+- On github create an issue for each objective.
+- Creating an issue is just like making a post.
+- For most of us, it would be overkill, but you can even explicitly assign an issue to a particular collaborator.
+- Each issue is a thread.
+- You make a post and follow up with discussion points under that issue.
 
-![](./img/issues.png)
 
 Using Issues on github
 ----------------------
 
-![](./img/anissue.png)
+- A good way to think of issues is like a todo list, or more a todo board
+- That lives at the same place as the project itself.
+- The issue is explicitly about the project so it should live where the project lives, not buried in email.
+- Sometimes it's nice to have comments inside of files but this gets messy really fast
+- And, you can even intimately connect issues and branches
+- So people can see the progress being made on a specific issue
+- Rather than getting emails with periodic updates
 
 Why aren't you using `git` already?
 ===================================
@@ -246,8 +265,12 @@ Why aren't you using `git` already?
 Classical Conditioning
 ----------------------
 
-\begin{itemize}
-    \item The reward (or punishment) is too far separated from the act!
+- You are intimidated, but really you should not be.
+- Or, you haven't learned the value of git yet
+- Git is not a fire extinguisher
+- It doesn't solve problems as they come up
+- It's like fire-retardant insulation
+- It takes a little bit of work to incorporate git to your workflow
+- But it prevents problems from becoming unweildy massive time sucks that happen at some point down the road
+- You probably won't get immediate positive reinforcement, you have to train yourself to use it.
 
-    \item Must actively train one's self to use `git`
-\end{itemize}

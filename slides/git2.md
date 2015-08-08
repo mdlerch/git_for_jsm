@@ -60,11 +60,15 @@ You can use all of these.  Simultaneously even.
     - _private_ repository pricing based on number of repositories
     - Built-in website hosting, probably most popular
 
+. . .
+
 - bitbucket
 
     - unlimited free _public_ repositories
     - unlimited free _private_ repositories (up to 5 collaborators)
     - _private_ repository pricing based on number of collaborators
+
+. . .
 
 - gitlab
 
@@ -121,7 +125,11 @@ Github
 Doing work?
 -----------
 
+. . .
+
 - Write some more code, apply edits to a document, etc.
+
+. . .
 
 \centering
 \includegraphics[width=.6\textwidth]{./img/saveas.png}
@@ -162,6 +170,8 @@ Is `git` hard to use?
 - Do you know about files and folders?
 - Do you have a different folder for each project?
 
+. . .
+
 \centering
 `git` is easy!
 
@@ -196,14 +206,15 @@ Reviewer Comments
 Using Issues on github
 ----------------------
 
-- Your TODO list lives at the _same place_ as the project itself
 
-![](./img/issues.png)
+![](./img/anissue.png)
 
 Using Issues on github
 ----------------------
 
-![](./img/anissue.png)
+- Your TODO list lives at the _same place_ as the project itself
+
+![](./img/issues.png)
 
 Why aren't you using `git` already?
 ===================================
@@ -215,12 +226,15 @@ Classical Conditioning
 \column{.48\textwidth}
 
 \begin{itemize}
+    \item You are intimidated (don't be!)
+
     \item The reward (or punishment) is too far separated from the act!
 
     \item Must actively train one's self to use `git`
 \end{itemize}
 
 \column{.48\textwidth}
+
 
 \includegraphics[width = \textwidth]{./img/pavlovdog1.png}
 
